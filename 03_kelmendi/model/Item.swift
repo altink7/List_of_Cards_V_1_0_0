@@ -7,8 +7,6 @@
 
 import Foundation
 
-import Foundation
-
 struct Response<T: Codable>: Codable {
     let cards: [T]
 }
